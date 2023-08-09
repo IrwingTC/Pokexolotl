@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ebad04;
+    margin: 0;
+    padding: 0;
+    background-image: url('IMG/Axo.jpeg'); /* Ruta de la imagen de fondo */;
+}
+
+.axo {
+    text-align: center;
+    height: 120px;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+main {
+    padding: 5px;
+}
+
+h2 {
+    text-shadow: 1px  0px 0px black, 0px  1px 0px black, -1px  0px 0px black, 0px -1px 0px black;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links h2 {
+    margin-bottom: 10px;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100px;
+    background-color: #0066ff;
+    color: #ebad04;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social-links a:hover {
+    color: #000000;
+    background-color: #ffd000;
+}
+
+footer {
+    text-align: center;
+    text-shadow: 1px  0px 0px grey, 0px  1px 0px grey, -1px  0px 0px grey, 0px -1px 0px grey;
+    height: 5px;
+    bottom: 0;
+    width: 100%;
+    line-height: 0.8;
+}
